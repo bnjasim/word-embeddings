@@ -1,7 +1,7 @@
 count = 0
 
-with open('voc.hi.txt', 'w') as outfile:
-  with open('/ssd_scratch/cvit/binu.jasim/fastText/wiki.hi.vec') as f:
+with open('voc.en.txt', 'w') as outfile:
+  with open('/ssd_scratch/cvit/binu.jasim/fastText/wiki.en.vec') as f:
     line = f.readline()
     while(line):
       count += 1
